@@ -1,0 +1,31 @@
+body {
+  background-color: #B0BEC5 ;
+  margin: 0;
+}
+
+.parallax-container {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-container.alt {
+  background-color: #F8BBD0;
+}
+
+.parallex-item {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parallex-item img {
+  max-widht: 100%;
+  max-heightL: 100px;
+} 
